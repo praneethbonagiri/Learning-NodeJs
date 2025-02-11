@@ -1,0 +1,24 @@
+for browser requests we will send data as html document 
+but for other we can send as json
+
+to differentiate between them we can /api in url
+if /api is resent we can send json resp
+
+GET
+/users = get all users as HTML document
+/api/users = get all users as json
+
+dynamic path variables
+/api/users/:id
+:id = variable or dynamic value
+
+/api/users/1 = get user with id 1
+
+POST
+/users = create user
+
+PATCH
+/users/1 = update user with id 1
+
+DELETE
+/users/1 = delete user with id 1

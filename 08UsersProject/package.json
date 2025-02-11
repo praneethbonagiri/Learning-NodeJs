@@ -1,0 +1,15 @@
+{
+  "name": "08usersproject",
+  "version": "1.0.0",
+  "description": "Rest api project for users get, add, update and delete users",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

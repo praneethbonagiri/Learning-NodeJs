@@ -1,0 +1,13 @@
+URL Shortener
+
+Desing a url shortener service that takes a url from user and returns a valid short url that redirects user to the original URL.
+
+Also keep track of number of visits
+
+Routes
+
+Post /URL : generates a short url and returns the short url in the format "example.com/random-id"
+
+Get /:id : redirects the user to the original URL
+
+Get /URL/analytics/:id : returns the clicks for the shortened URL

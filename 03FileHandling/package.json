@@ -1,0 +1,12 @@
+{
+  "name": "03filehandling",
+  "version": "1.0.0",
+  "description": "Handling files in node js",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node file.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
